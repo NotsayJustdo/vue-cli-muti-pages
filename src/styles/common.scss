@@ -1,0 +1,13 @@
+//这里引入设计规范样式，这样就只用在页面中引入一个文件
+@import './vars.scss';
+
+// 这里用于书写常用的样式，例如：不换行超出隐藏等
+.no-wrap {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+//a标签没有下划线
+a.no-underline {
+    text-decoration: none;
+}
